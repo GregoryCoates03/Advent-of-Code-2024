@@ -8,7 +8,6 @@ fs.readFile("Day 2 Input.txt", (err, data) => {
     inputSplitting(input);
     console.log(safe(arr));
     console.log(actuallySafe(arr));
-
 });
 
 const inputSplitting = (input) => {
